@@ -11,7 +11,7 @@ Gua ngebangun arsitektur sistem yang *scalable*, *clean code*, dan UI/UX yang *a
 
 ---
 
-### 🚀 The Arsenal (Tech Stack)
+### 🛠️ The Arsenal (Tech Stack)
 *Tools yang tepat di tangan yang tepat itu mematikan. Dan ya, gua ngoding di-backup penuh sama AI.*
 
 **Frontend & UI/UX:**
