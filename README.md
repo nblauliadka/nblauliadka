@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,00ffcc,7d2ae8&height=250&section=header&text=Hello,%20I'm%20Nabil&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Fullstack%20Engineer%20%7C%20AI-First%20Dev%20%7C%20Linux%20Ricer&descAlignY=51&descAlign=62" />
 </div>
 
-<h3 align="center">Crafting Next-Gen Web Solutions & Automating the Boring Stuff ⚡</h3>
+<h3 align="center">Crafting Next-Gen Web Solutions & Automating the Boring Stuff </h3>
 
 ---
 
