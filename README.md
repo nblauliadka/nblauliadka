@@ -7,12 +7,12 @@
 ---
 
 ### 👨‍💻 About The Engineer
-Gua ngebangun arsitektur sistem yang *scalable*, *clean code*, dan UI/UX yang *aesthetic*. Fokus gua bukan cuma sekadar nulis baris kode, tapi *problem solving* pakai ekosistem modern dan integrasi AI. Kalau nggak lagi ngoding web atau nge-rice **EndeavourOS / Hyprland**, lu bakal nemuin gua di gym atau ngulik *Cybersecurity*.
+I build scalable system architectures, write clean code, and design aesthetic UI/UX. My focus isn't just about writing lines of code, but solving real-world problems using modern ecosystems and AI integration. When I'm not developing web applications or ricing my **EndeavourOS / Hyprland** setup, you'll probably find me hitting the gym or diving deep into **Cybersecurity**.
 
 ---
 
 ### 🛠️ The Arsenal (Tech Stack)
-*Tools yang tepat di tangan yang tepat itu mematikan. Dan ya, gua ngoding di-backup penuh sama AI.*
+*The right tools in the right hands are lethal. And yes, my coding workflow is fully backed by AI.*
 
 **Frontend & UI/UX:**
 <p>
@@ -34,7 +34,7 @@ Gua ngebangun arsitektur sistem yang *scalable*, *clean code*, dan UI/UX yang *a
 ---
 
 ### 📂 The Journey Begins
-*Clean slate.* Semua karya dan *project* masa lalu biarlah menjadi fondasi bisu di *local storage*. Sejarah yang sebenarnya baru akan diukir dari titik ini. 
+*Clean slate.* Let all past works and projects remain as a silent foundation in local storage. The true history is about to be written from this point forward. 
 
 <br>
 
