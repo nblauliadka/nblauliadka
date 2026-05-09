@@ -17,18 +17,18 @@
   </svg>
 
   <div style={{ position: 'relative', display: 'flex', flexDirection: 'row', alignItems: 'center', padding: 40, zIndex: 10, width: '100%' }}>
-    <img src="[https://github.com/nabilauliadika.png](https://github.com/nabilauliadika.png)" style={{ width: 120, height: 120, borderRadius: '50%', border: '3px solid rgba(255,255,255,0.1)', objectFit: 'cover' }} />
+    
+    <img src="[https://github.com/nabilauliadika.png](https://github.com/nabilauliadika.png)" style={{ width: 120, height: 120, borderRadius: 60, border: '3px solid rgba(255,255,255,0.1)', objectFit: 'cover' }} />
     
     <div style={{ display: 'flex', flexDirection: 'column', marginLeft: 30 }}>
       <span style={{ fontSize: 38, fontWeight: 700, color: '#ffffff', letterSpacing: -1 }}>Nabil Aulia Dika</span>
       <span style={{ fontSize: 15, color: 'rgba(255,255,255,0.6)', marginTop: 8 }}>Full Stack Web Developer | Informatics Student 🇮🇩</span>
       
       <div style={{ display: 'flex', gap: 10, marginTop: 18 }}>
-        {['React', 'TypeScript', 'Node.js', 'Tailwind'].map((tech, i) => (
-          <span key={i} style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.7)', borderRadius: 100, fontSize: 11, border: '1px solid rgba(255,255,255,0.1)' }}>
-            {tech}
-          </span>
-        ))}
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.7)', borderRadius: 100, fontSize: 11, border: '1px solid rgba(255,255,255,0.1)' }}>React</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.7)', borderRadius: 100, fontSize: 11, border: '1px solid rgba(255,255,255,0.1)' }}>TypeScript</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.7)', borderRadius: 100, fontSize: 11, border: '1px solid rgba(255,255,255,0.1)' }}>Node.js</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.7)', borderRadius: 100, fontSize: 11, border: '1px solid rgba(255,255,255,0.1)' }}>Arch Linux</span>
       </div>
     </div>
   </div>
@@ -49,22 +49,22 @@
   </svg>
 
   <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-    <span style={{ fontSize: 32, fontWeight: 700, color: '#b4a6ff' }}>{(github && github.user && github.user.public_repos) || 15}</span>
-    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>REPOS</span>
+    <span style={{ fontSize: 32, fontWeight: 700, color: '#b4a6ff' }}>MVP</span>
+    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>BUILDER</span>
   </div>
   
   <div style={{ position: 'relative', width: 1, height: 60, background: 'rgba(255,255,255,0.05)', zIndex: 10 }}></div>
 
   <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-    <span style={{ fontSize: 32, fontWeight: 700, color: '#4da6ff' }}>MVP</span>
-    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>BUILDER</span>
+    <span style={{ fontSize: 32, fontWeight: 700, color: '#4da6ff' }}>100%</span>
+    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>DEDICATION</span>
   </div>
 
   <div style={{ position: 'relative', width: 1, height: 60, background: 'rgba(255,255,255,0.05)', zIndex: 10 }}></div>
 
   <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-    <span style={{ fontSize: 32, fontWeight: 700, color: '#ffb347' }}>100%</span>
-    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>DEDICATION</span>
+    <span style={{ fontSize: 32, fontWeight: 700, color: '#ffb347' }}>HUSTLE</span>
+    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>HACKATHON</span>
   </div>
 
 </div>
@@ -90,27 +90,30 @@
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <span style={{ fontSize: 11, color: '#b4a6ff', width: 120, fontWeight: 600, letterSpacing: 1 }}>LANGUAGES</span>
       <div style={{ display: 'flex', gap: 10 }}>
-        {['TypeScript', 'JavaScript', 'C', 'HTML/CSS'].map((tech, i) => (
-          <span key={i} style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>{tech}</span>
-        ))}
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>TypeScript</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>JavaScript</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>C</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>HTML/CSS</span>
       </div>
     </div>
 
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <span style={{ fontSize: 11, color: '#4da6ff', width: 120, fontWeight: 600, letterSpacing: 1 }}>FRAMEWORKS</span>
       <div style={{ display: 'flex', gap: 10 }}>
-        {['React', 'Next.js', 'Express', 'Tailwind'].map((tech, i) => (
-          <span key={i} style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>{tech}</span>
-        ))}
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>React</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>Next.js</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>Express</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>Tailwind</span>
       </div>
     </div>
 
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <span style={{ fontSize: 11, color: '#ffb347', width: 120, fontWeight: 600, letterSpacing: 1 }}>INFRA/TOOLS</span>
       <div style={{ display: 'flex', gap: 10 }}>
-        {['Arch Linux', 'Git', 'Firebase', 'Figma'].map((tech, i) => (
-          <span key={i} style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>{tech}</span>
-        ))}
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>Arch Linux</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>Git</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>Firebase</span>
+        <span style={{ padding: '4px 14px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.8)', borderRadius: 6, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)' }}>Figma</span>
       </div>
     </div>
 
