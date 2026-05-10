@@ -1,4 +1,4 @@
-```aura width=800 height=240
+```aura width=800 height=220
 <div style={{ position: 'relative', display: 'flex', width: '100%', height: '100%', background: '#0a0a0f', borderRadius: 16, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.05)', fontFamily: 'Inter, sans-serif' }}>
   
   <svg width="100%" height="100%" style={{ position: 'absolute', top: 0, left: 0 }}>
@@ -16,16 +16,21 @@
     <rect width="100%" height="100%" fill="url(#card1-g2)" />
   </svg>
 
-  <div style={{ position: 'relative', display: 'flex', flexDirection: 'row', alignItems: 'center', padding: '30px 40px', zIndex: 10, width: '100%' }}>
+  <div style={{ position: 'relative', display: 'flex', flexDirection: 'row', alignItems: 'center', padding: '0 40px', zIndex: 10, width: '100%' }}>
     
-    <img src="./profile.png" style={{ width: 110, height: 110, borderRadius: 55, border: '3px solid rgba(255,255,255,0.1)', objectFit: 'cover' }} />
+    <img src="./profile.png" style={{ width: 120, height: 120, borderRadius: 60, border: '3px solid rgba(255,255,255,0.1)', objectFit: 'cover' }} />
     
-    <div style={{ display: 'flex', flexDirection: 'column', marginLeft: 30, flex: 1 }}>
-      <span style={{ fontSize: 32, fontWeight: 700, color: '#ffffff', letterSpacing: -1 }}>Nabil Aulia Dika</span>
-      <span style={{ fontSize: 14, color: '#b4a6ff', fontWeight: 600, marginTop: 4 }}>Full Stack Web Developer | Informatics Student @ USK</span>
-      <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', marginTop: 12, lineHeight: 1.5, maxWidth: '90%' }}>
-        Specializing in building efficient, secure, and production-ready applications tailored to accelerate UMKM and Startups. Bridging the gap between business management and scalable digital ecosystems.
-      </p>
+    <div style={{ display: 'flex', flexDirection: 'column', marginLeft: 30, flex: 1, justifyContent: 'center' }}>
+      <span style={{ fontSize: 36, fontWeight: 700, color: '#ffffff', letterSpacing: -1 }}>Nabil Aulia Dika</span>
+      <span style={{ fontSize: 14, color: '#b4a6ff', fontWeight: 500, marginTop: 4 }}>Full Stack Web Developer | Informatics Student @ USK</span>
+      
+      <div style={{ display: 'flex', gap: 10, marginTop: 20 }}>
+        {['React', 'TypeScript', 'Node.js', 'Linux'].map((tech, i) => (
+          <span key={i} style={{ padding: '5px 14px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.7)', borderRadius: 100, fontSize: 11, border: '1px solid rgba(255,255,255,0.1)' }}>
+            {tech}
+          </span>
+        ))}
+      </div>
     </div>
   </div>
 </div>
@@ -36,31 +41,41 @@
   
   <svg width="100%" height="100%" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
-      <radialGradient id="card2-g1" cx="50%" cy="100%" r="70%">
-        <stop offset="0%" stopColor="rgba(40, 80, 255, 0.25)" />
-        <stop offset="100%" stopColor="rgba(40, 80, 255, 0)" />
+      <radialGradient id="card2-g1" cx="16%" cy="100%" r="50%">
+        <stop offset="0%" stopColor="rgba(180, 166, 255, 0.25)" />
+        <stop offset="100%" stopColor="rgba(180, 166, 255, 0)" />
+      </radialGradient>
+      <radialGradient id="card2-g2" cx="50%" cy="100%" r="50%">
+        <stop offset="0%" stopColor="rgba(77, 166, 255, 0.25)" />
+        <stop offset="100%" stopColor="rgba(77, 166, 255, 0)" />
+      </radialGradient>
+      <radialGradient id="card2-g3" cx="84%" cy="100%" r="50%">
+        <stop offset="0%" stopColor="rgba(255, 179, 71, 0.2)" />
+        <stop offset="100%" stopColor="rgba(255, 179, 71, 0)" />
       </radialGradient>
     </defs>
     <rect width="100%" height="100%" fill="url(#card2-g1)" />
+    <rect width="100%" height="100%" fill="url(#card2-g2)" />
+    <rect width="100%" height="100%" fill="url(#card2-g3)" />
   </svg>
 
-  <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-    <span style={{ fontSize: 32, fontWeight: 700, color: '#b4a6ff' }}>MVP</span>
-    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>BUILDER</span>
+  <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10, width: 150 }}>
+    <span style={{ fontSize: 32, fontWeight: 700, color: '#b4a6ff' }}>{(github && github.user && github.user.public_repos) || 14}</span>
+    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>REPOS</span>
   </div>
   
   <div style={{ position: 'relative', width: 1, height: 60, background: 'rgba(255,255,255,0.05)', zIndex: 10 }}></div>
 
-  <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-    <span style={{ fontSize: 32, fontWeight: 700, color: '#4da6ff' }}>100%</span>
-    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>DEDICATION</span>
+  <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10, width: 150 }}>
+    <span style={{ fontSize: 32, fontWeight: 700, color: '#4da6ff' }}>{(github && github.user && github.user.followers) || 10}</span>
+    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>FOLLOWERS</span>
   </div>
 
   <div style={{ position: 'relative', width: 1, height: 60, background: 'rgba(255,255,255,0.05)', zIndex: 10 }}></div>
 
-  <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-    <span style={{ fontSize: 32, fontWeight: 700, color: '#ffb347' }}>HUSTLE</span>
-    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>HACKATHON</span>
+  <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10, width: 150 }}>
+    <span style={{ fontSize: 32, fontWeight: 700, color: '#ffb347' }}>100+</span>
+    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, marginTop: 4, textTransform: 'uppercase' }}>COMMITS</span>
   </div>
 </div>
 ```
